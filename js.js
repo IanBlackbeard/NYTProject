@@ -40,10 +40,11 @@ $.ajax({
 
 });
 
-$("#search").on("click", function(){
+$("#search-btn").on("click", function(){
 
-	searchTerm = $("#").val();
-	articleNum = $("#").val();
-	endYear = $("#").val();
+	searchTerm = $("#search-term").val();
+	articleNum = $("#sel1").val();
+	startYear = $("#start-year").val();
+	endYear = $("#end-year").val();
 
 });
